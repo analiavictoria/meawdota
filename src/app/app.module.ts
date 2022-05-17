@@ -9,7 +9,8 @@ import { HeaderComponent } from './components/template/header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
-
+import { NavComponent } from './components/template/nav/nav.component';
+import { MapComponent } from './components/template/map/map.component';
 
 @NgModule({
   //5 atributos para configurar um módulo
@@ -17,7 +18,9 @@ import { MatToolbarModule } from '@angular/material/toolbar';
   //1. Declarar todos os componentes que fazem parte do módulo, diretivas e pipes
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    NavComponent,
+    MapComponent,
   ],
   //2. Exports
 
@@ -26,7 +29,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     BrowserModule,
     AppRoutingModule,
     MatToolbarModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
   ],
 
   //4. Declarar os services
