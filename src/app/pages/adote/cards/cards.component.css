@@ -1,20 +1,16 @@
-.filters{
-  padding: 2rem;
-  margin-top:2rem;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+.cardbody{
+  margin: 4rem;
 }
 
-.mat-form-field-appearance-fill .mat-form-field-flex {
-  background-color: #fff;
+.filters{
+  margin: 1rem;
 }
 
 mat-card{
-  margin-top: 30px;
-  margin-right: 15px;
+  margin-right: 0.5rem;
+  margin-top: 2rem;
 }
+
 .pet-cards {
   width: 240px;
   height: 500px;

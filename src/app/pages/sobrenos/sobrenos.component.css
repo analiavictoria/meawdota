@@ -1,9 +1,11 @@
 .cards {
+    max-width: 50rem;
     padding-top: 4rem;
     padding-bottom: 4rem;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-    box-shadow: 10px 5px 5px rgba(17, 12, 46, 0.15);
 }
 
 .title {
@@ -13,9 +15,7 @@
 }
 
 .cards p {
-    padding-bottom: 0.5rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding: 0 0 0 16px;
     font-weight: 500;
     font-size: 16px;
     line-height: 2;

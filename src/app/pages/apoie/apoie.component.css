@@ -2,6 +2,8 @@
     padding-top: 4rem;
     padding-bottom: 4rem;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     box-shadow: 10px 5px 5px rgba(17, 12, 46, 0.15);
 }
@@ -31,3 +33,29 @@
     display: flex;
     justify-content: center;
 }
+
+.mat-form-field {
+    margin-left: 8px;
+  }
+
+.currency-field .mat-form-field + .mat-form-field {
+    margin-left: 8px;
+  }
+  
+.currency-right-align {
+    text-align: right;
+  }
+  
+input.currency-right-align::-webkit-outer-spin-button,
+input.currency-right-align::-webkit-inner-spin-button {
+    display: none;
+  }
+  
+input.currency-right-align {
+    -moz-appearance: textfield;
+  }
+
+  currency-field{
+    display: flex;
+    justify-content: center;
+  }
