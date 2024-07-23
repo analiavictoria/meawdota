@@ -1,4 +1,5 @@
 ![Meawdota (1)](https://user-images.githubusercontent.com/58526878/168527000-73678835-5e09-4f6e-ba26-4aecd0726c7f.png)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b1d67b8b-ee2f-49f9-939f-f916ac53fd77/deploy-status)](https://app.netlify.com/sites/meawdota/deploys)
 
 # Meawdota
 
@@ -6,7 +7,6 @@ O projeto "Meawdota" é um site desenvolvido em Angular como parte de uma inicia
 
 A proposta do Meawdota é fornecer uma interface intuitiva e amigável para usuários que buscam adotar animais de estimação, conectando-os de forma eficiente aos animais que precisam de um lar. O site oferece recursos como perfis detalhados dos animais, incluindo fotos, informações de saúde, temperamento e histórico. Além disso, os usuários poderão filtrar sua pesquisa com base em preferências específicas, como espécie, raça e localização.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b1d67b8b-ee2f-49f9-939f-f916ac53fd77/deploy-status)](https://app.netlify.com/sites/meawdota/deploys)
 
 ### Página Inicial 
 
